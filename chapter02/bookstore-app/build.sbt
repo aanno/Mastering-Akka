@@ -1,9 +1,9 @@
-name := "chapter2-bookstore-app"
+name := "chapter2-bookstore-app2"
 
 lazy val commonSettings = Seq(
   organization := "com.packt.masteringakka",
   version := "0.1.0",
-  scalaVersion := "2.12.8"
+  scalaVersion := "2.11.12"
 )
 
 lazy val root = (project in file(".")).
@@ -33,8 +33,8 @@ lazy val server = {
   import com.typesafe.sbt.packager.docker._
   Project(
     id = "server",
-    base = file("server"),
-    settings = commonSettings ++ Seq(
+    base = file("server"))
+    .settings(commonSettings ++ Seq(
       mainClass in Compile := Some("com.packt.masteringakka.bookstore.server.Server"),
       dockerCommands := dockerCommands.value.filterNot {
         // ExecCmd is a case class, and args is a varargs variable, so you need to bind it with @
@@ -46,7 +46,6 @@ lazy val server = {
       dockerExposedPorts := Seq(8080),
       maintainer in Docker := "mastering-akka@packt.com",
       dockerBaseImage := "java:8"
-    )
-  ).dependsOn(common, bookServices, userServices, creditServices, orderServices)
+    )).dependsOn(common, bookServices, userServices, creditServices, orderServices)
     .enablePlugins(JavaAppPackaging)
 }

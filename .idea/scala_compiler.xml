@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="Mastering-Akka,book-services_5168,bookstore-app-complete_275,bookstore-app-complete_3163,bookstore-app-complete_8836,bookstore-app-incomplete_2170,bookstore-app-incomplete_9334,bookstore-app-incomplete_9609,bookstore-app_942,common_5663,credit-services_5967,initial-example-app_4004,initial-example-book-services,initial-example-credit-services,initial-example-order-services,initial-example-server,initial-example-user-services,order-services_9602,samples_532,server_4628,user-services_9792" />
+    <profile name="sbt 1" modules="Mastering-Akka,book-services_5168,bookstore-app-complete_275,bookstore-app-complete_3163,bookstore-app-complete_8836,bookstore-app-incomplete_2170,bookstore-app-incomplete_9334,bookstore-app-incomplete_9609,bookstore-app_942,chapter2-book-services,chapter2-bookstore-app2,chapter2-bookstore-common,chapter2-credit-services,chapter2-order-services,chapter2-samples,chapter2-server,chapter2-user-services,common_5663,credit-services_5967,initial-example-app,initial-example-app_4004,initial-example-book-services,initial-example-common,initial-example-credit-services,initial-example-order-services,initial-example-server,initial-example-user-services,order-services_9602,samples_532,server_4628,user-services_9792" />
   </component>
 </project>
