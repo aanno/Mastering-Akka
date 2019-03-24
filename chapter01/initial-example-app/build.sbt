@@ -5,7 +5,7 @@ name := "initial-example-app"
 lazy val commonSettings = Seq(
   organization := "com.packt.masteringakka",
   version := "0.1.0",
-  scalaVersion := "2.11.2"
+  scalaVersion := "2.11.12"
 )
 
 lazy val root = (project in file(".")).
@@ -35,7 +35,7 @@ lazy val server = {
   import com.typesafe.sbt.packager.docker._
   Project(
     id = "server",
-    base = file("server"),
+    base = file("server") /*,
     settings = commonSettings ++ Seq(
       mainClass in Compile := Some("com.packt.masteringakka.bookstore.server.Server"),
       dockerCommands := dockerCommands.value.filterNot {
@@ -49,6 +49,7 @@ lazy val server = {
       maintainer in Docker := "mastering-akka@packt.com",
       dockerBaseImage := "java:8"
     )
+     */
   ).dependsOn(common, bookServices, userServices, creditServices, orderServices)
-    .enablePlugins(JavaAppPackaging)
+    .enablePlugins(JavaAppPackaging, DockerPlugin)
 }

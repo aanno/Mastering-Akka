@@ -4,10 +4,10 @@ organization := "com.packt.masteringakka"
 
 version := "1.0.0"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.8"
 
 libraryDependencies ++= {
-  val akkaVersion = "2.4.9"
+  val akkaVersion = "2.5.21"
   val conductRLibVersion = "1.4.8"
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,

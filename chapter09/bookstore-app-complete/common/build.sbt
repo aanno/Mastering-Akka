@@ -4,10 +4,10 @@ organization := "com.packt.masteringakka"
 
 version := "0.1.0-SNAPSHOT"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.12.8"
 
 libraryDependencies ++= {
-  val akkaVersion = "2.4.8"
+  val akkaVersion = "2.5.21"
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion,

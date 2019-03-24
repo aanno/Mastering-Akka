@@ -5,7 +5,7 @@ name := "chapter4-bookstore-app-incomplete"
 lazy val commonSettings = Seq(
   organization := "com.packt.masteringakka",
   version := "0.1.0",
-  scalaVersion := "2.11.8"
+  scalaVersion := "2.12.8"
 )
 
 lazy val root = (project in file(".")).

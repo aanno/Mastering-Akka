@@ -1,7 +1,7 @@
 name := "chapter4-bookstore-common-complete"
 
 libraryDependencies ++= { 
-  val akkaVersion = "2.4.7"
+  val akkaVersion = "2.5.21"
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
