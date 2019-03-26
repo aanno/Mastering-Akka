@@ -6,14 +6,15 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
   "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
-  "ch.qos.logback" % "logback-classic" % "1.0.9",
-  "com.typesafe.slick" %% "slick" % "3.2.3",
-  "com.typesafe.slick" %% "slick-hikaricp" % "3.2.3",
-  "net.databinder" %% "unfiltered-filter" % "0.8.4",
-  "net.databinder" %% "unfiltered-netty" % "0.8.4",
-  "net.databinder" %% "unfiltered-netty-server" % "0.8.4",
-  "net.databinder" %% "unfiltered-json4s" % "0.8.4",
-  "org.json4s" %% "json4s-ext" % "3.2.9",
-  "org.postgresql" % "postgresql" % "42.2.2",
-  "net.databinder.dispatch" %% "dispatch-core" % "0.11.2"
+  "ch.qos.logback" % "logback-classic" % "1.2.3",
+  "com.typesafe.slick" %% "slick" % "3.3.0",
+  "com.typesafe.slick" %% "slick-hikaricp" % "3.3.0",
+  "ws.unfiltered" %% "unfiltered-filter-async" % "0.9.1",
+  "ws.unfiltered" %% "unfiltered-netty" % "0.9.1",
+  "ws.unfiltered" %% "unfiltered-netty-server" % "0.9.1",
+  "ws.unfiltered" %% "unfiltered-json4s" % "0.9.1",
+  "org.json4s" %% "json4s-ext" % "3.6.5",
+  "org.postgresql" % "postgresql" % "42.2.5",
+  "net.databinder.dispatch" %% "dispatch-core" % "0.13.4"
+  // "org.dispatchhttp" %% "dispatch-core" % "1.0.1"
 )
