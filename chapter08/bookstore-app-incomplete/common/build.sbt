@@ -13,7 +13,7 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http-spray-json-experimental" % akkaVersion, 
     "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
     "com.typesafe.akka" %% "akka-cluster-sharding" % akkaVersion,
-    "ch.qos.logback" % "logback-classic" % "1.0.9",
+    "ch.qos.logback" % "logback-classic" % "1.2.3",
     "org.json4s" %% "json4s-ext" % "3.2.9",
     "org.json4s" %% "json4s-native" % "3.2.9",
     "com.google.protobuf" % "protobuf-java"  % "2.5.0",

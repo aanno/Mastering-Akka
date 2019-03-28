@@ -5,5 +5,4 @@ logLevel := Level.Warn
 //resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 
 //addSbtPlugin("com.typesafe.sbt" % "sbt-bintray-bundle" % "1.0.2")
-addSbtPlugin("com.lightbend.conductr" % "sbt-conductr" % "2.1.7")
-
+addSbtPlugin("com.lightbend.conductr" % "sbt-conductr" % "2.7.2")

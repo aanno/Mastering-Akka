@@ -16,7 +16,7 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http-spray-json-experimental" % akkaVersion,
     // https://github.com/typesafehub/conductr-lib#typesafe-conductr-bundle-library
     "com.typesafe.conductr" %% "akka24-conductr-bundle-lib" % conductRLibVersion,
-    "ch.qos.logback" % "logback-classic" % "1.1.7"  
+    "ch.qos.logback" % "logback-classic" % "1.2.3",
     )
 }
 
