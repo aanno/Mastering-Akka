@@ -6,7 +6,7 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
-    "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.14",
+    "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.93",
     "com.typesafe.akka" %% "akka-persistence" % akkaVersion,
     "com.typesafe.akka" %% "akka-http-core" % akkaVersion,    
     "com.typesafe.akka" %% "akka-http-experimental" % akkaVersion,
@@ -14,9 +14,9 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
     "com.typesafe.akka" %% "akka-cluster-sharding" % akkaVersion,
     "ch.qos.logback" % "logback-classic" % "1.2.3",
-    "org.json4s" %% "json4s-ext" % "3.2.9",
-    "org.json4s" %% "json4s-native" % "3.2.9",
-    "com.google.protobuf" % "protobuf-java"  % "2.5.0",
+    "org.json4s" %% "json4s-ext" % "3.6.5",
+    "org.json4s" %% "json4s-native" % "3.6.5",
+    "com.google.protobuf" % "protobuf-java"  % "3.7.0",
     "com.typesafe.akka" %% "akka-http-testkit" % akkaVersion % Test
   )
 }

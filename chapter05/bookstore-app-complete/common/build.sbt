@@ -5,7 +5,7 @@ libraryDependencies ++= {
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
-    "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.16" excludeAll(ExclusionRule("io.netty")),
+    "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.93" excludeAll(ExclusionRule("io.netty")),
     "com.typesafe.akka" %% "akka-persistence" % akkaVersion excludeAll(ExclusionRule("io.netty")),
     "ch.qos.logback" % "logback-classic" % "1.2.3",
     "ws.unfiltered" %% "unfiltered-filter-async" % "0.9.1",
