@@ -1,5 +1,7 @@
 resolvers += "sonatype-releases" at "https://oss.sonatype.org/content/repositories/releases/"
 
+addSbtCoursier
+
 // to format scala source code
 addSbtPlugin("org.scalariform" % "sbt-scalariform" % "1.8.2")
 
