@@ -1,3 +1,4 @@
+addSbtCoursier
 addSbtPlugin("org.scalariform" % "sbt-scalariform" % "1.8.2")
 
 // https://github.com/typesafehub/sbt-conductr#bundle-settings
