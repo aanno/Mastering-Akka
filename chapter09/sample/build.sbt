@@ -8,15 +8,18 @@ scalaVersion := "2.12.8"
 
 libraryDependencies ++= {
   val akkaVersion = "2.5.21"
-  val conductRLibVersion = "1.4.8"
+  val akkaHttpVersion = "10.1.8"
+  val conductRLibVersion = "2.2.0"
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
-    "com.typesafe.akka" %% "akka-http-experimental" % akkaVersion,
-    "com.typesafe.akka" %% "akka-http-spray-json-experimental" % akkaVersion,
+    "com.typesafe.akka" %% "akka-http-core" % akkaHttpVersion,
+    "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
+    "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     // https://github.com/typesafehub/conductr-lib#typesafe-conductr-bundle-library
     "com.typesafe.conductr" %% "akka24-conductr-bundle-lib" % conductRLibVersion,
     "ch.qos.logback" % "logback-classic" % "1.2.3",
+    "org.vafer" % "jdep" % "1.7"
     )
 }
 

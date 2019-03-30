@@ -2,21 +2,22 @@ name := "chapter8-bookstore-common-complete"
 
 libraryDependencies ++= {
   val akkaVersion = "2.5.21"
+  val akkaHttpVersion = "10.1.8"
   Seq(
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
     "com.typesafe.akka" %% "akka-persistence-cassandra" % "0.93",
     "com.typesafe.akka" %% "akka-persistence" % akkaVersion,
-    "com.typesafe.akka" %% "akka-http-core" % akkaVersion,    
-    "com.typesafe.akka" %% "akka-http-experimental" % akkaVersion,
-    "com.typesafe.akka" %% "akka-http-spray-json-experimental" % akkaVersion,  
+    "com.typesafe.akka" %% "akka-http-core" % akkaHttpVersion,
+    "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
+    "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
     "com.typesafe.akka" %% "akka-cluster-sharding" % akkaVersion,
     "ch.qos.logback" % "logback-classic" % "1.2.3",
     "org.json4s" %% "json4s-ext" % "3.6.5",
     "org.json4s" %% "json4s-native" % "3.6.5",
     "com.google.protobuf" % "protobuf-java"  % "3.7.0",
-    "com.typesafe.akka" %% "akka-http-testkit" % akkaVersion % Test
+    "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % Test
   )
 }
