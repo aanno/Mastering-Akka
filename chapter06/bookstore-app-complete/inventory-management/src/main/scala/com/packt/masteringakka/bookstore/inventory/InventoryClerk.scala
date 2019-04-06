@@ -16,6 +16,7 @@ import akka.persistence.query.PersistenceQuery
 import akka.persistence.cassandra.query.scaladsl.CassandraReadJournal
 import akka.stream.ActorMaterializer
 import akka.persistence.query.EventEnvelope
+import akka.persistence.query.Sequence
 
 /**
  * Companion to the InventoryClerk actor where the vocab is defined 
@@ -55,7 +56,7 @@ class InventoryClerk extends Aggregate[BookFO, Book]{
     readJournalFor[CassandraReadJournal](CassandraReadJournal.Identifier)
   projection.fetchLatestOffset.foreach{ o =>
     journal.
-      eventsByTag("ordercreated", o.getOrElse(0L)).
+      eventsByTag("ordercreated", o.getOrElse(Sequence(0))).
       runForeach(e => self ! e)
   }
   

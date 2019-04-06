@@ -4,6 +4,7 @@ import java.util.concurrent.atomic.AtomicBoolean
 
 import akka.actor._
 import akka.event.Logging
+import akka.persistence.query.{NoOffset, Offset, Sequence}
 import com.datastax.driver.core._
 
 import scala.concurrent.Future
@@ -12,8 +13,8 @@ import scala.concurrent.Future
  * Interface into a projection's offset storage system so that it can be properly resumed
  */
 abstract class ResumableProjection(identifier:String) {
-  def storeLatestOffset(offset:Long):Future[Boolean]
-  def fetchLatestOffset:Future[Option[Long]]
+  def storeLatestOffset(offset:Offset):Future[Boolean]
+  def fetchLatestOffset:Future[Option[Offset]]
 }
 
 object ResumableProjection{
@@ -23,11 +24,15 @@ object ResumableProjection{
 
 class CassandraResumableProjection(identifier:String, system:ActorSystem) extends ResumableProjection(identifier){
   val projectionStorage = CassandraProjectionStorage(system)
-  
-  def storeLatestOffset(offset:Long):Future[Boolean] = {
-    projectionStorage.updateOffset(identifier, offset + 1)
+
+  def storeLatestOffset(offset: Offset): Future[Boolean] = offset match {
+    case Sequence(l) =>
+      projectionStorage.updateOffset(identifier, Sequence(l + 1))
+    case NoOffset =>
+      projectionStorage.updateOffset(identifier, Sequence(1))
   }
-  def fetchLatestOffset:Future[Option[Long]] = {
+
+  def fetchLatestOffset: Future[Option[Offset]] = {
     projectionStorage.fetchLatestOffset(identifier)
   }
 }
@@ -57,17 +62,17 @@ class CassandraProjectionStorageExt(system:ActorSystem) extends Extension {
 
   val session = new CassandraSession(system, cassandraConfig, init)
 
-  def updateOffset(identifier:String, offset:Long): Future[Boolean] = (for {
+  def updateOffset(identifier:String, offset:Offset): Future[Boolean] = (for {
     session <- session.underlying()
     _ <- session.executeAsync(s"update bookstore.projectionoffsets set offset = $offset where identifier = '$identifier'")
   } yield true) recover { case t => false }
 
-  def fetchLatestOffset(identifier:String): Future[Option[Long]] = for {
+  def fetchLatestOffset(identifier:String): Future[Option[Offset]] = for {
     session <- session.underlying()
     rs <- session.executeAsync(s"select offset from bookstore.projectionoffsets where identifier = '$identifier'")
   } yield {
     import collection.JavaConversions._
-    rs.all().headOption.map(_.getLong(0))
+    rs.all().headOption.map(_.getLong(0)).map(l => Sequence(l))
   }
 }
 object CassandraProjectionStorage extends ExtensionId[CassandraProjectionStorageExt] with ExtensionIdProvider { 

@@ -13,6 +13,7 @@ import akka.persistence.query.EventEnvelope
 import akka.stream.Supervision
 import scala.util.control.NonFatal
 import akka.stream.ActorMaterializerSettings
+import akka.persistence.query.{Offset, Sequence, NoOffset}
 
 trait ReadModelObject extends AnyRef{
   def id:String
@@ -32,7 +33,7 @@ object ViewBuilder{
   case class InsertAction(id:String, rm:ReadModelObject) extends IndexAction
   case class NoAction(id:String) extends IndexAction
   case class DeferredCreate(flow:Flow[EnvelopeAndAction,EnvelopeAndAction,akka.NotUsed]) extends IndexAction
-  case class LatestOffsetResult(offset:Option[Long])
+  case class LatestOffsetResult(offset:Option[Offset])
 }
 
 trait ViewBuilder[RM <: ReadModelObject] extends BookstoreActor with ElasticsearchSupport{
@@ -97,15 +98,15 @@ trait ViewBuilder[RM <: ReadModelObject] extends BookstoreActor with Elasticsear
   def actionFor(id:String, env:EventEnvelope):IndexAction
   
   def receive = {
-    case LatestOffsetResult(o) =>      
-      val offset = o.getOrElse(0L)
+    case LatestOffsetResult(Some(s @ Sequence(offset))) =>
+      // val offset = o.getOrElse(0L)
       if (offset == 0){
         clearIndex
       }
       
       val offsetDate = new Date(offset)
       log.info("Starting up view builder for entity {} with offset time of {}", entityType, offsetDate)
-      val eventsSource = journal.eventsByTag(entityType, offset)
+      val eventsSource = journal.eventsByTag(entityType, s)
       eventsSource.
         via(eventsFlow).
         runWith(Sink.ignore)
