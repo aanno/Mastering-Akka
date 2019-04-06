@@ -1,0 +1,46 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Server" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.packt.masteringakka.bookstore.server.Server" />
+    <module name="chapter6-server-complete" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.packt.masteringakka.bookstore.server.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <extension name="net.ashald.envfile">
+      <option name="IS_ENABLED" value="false" />
+      <option name="IS_SUBST" value="false" />
+      <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+      <option name="IS_IGNORE_MISSING_FILES" value="false" />
+      <ENTRIES>
+        <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+      </ENTRIES>
+    </extension>
+    <extension name="recording" autostart="false">
+      <include_pattern>
+        <option name="PATTERN" value="com.packt.masteringakka.bookstore.order.*" />
+        <option name="ENABLED" value="true" />
+        <option name="INCLUDE" value="true" />
+      </include_pattern>
+      <include_pattern>
+        <option name="PATTERN" value="com.packt.masteringakka.bookstore.inventory.*" />
+        <option name="ENABLED" value="true" />
+        <option name="INCLUDE" value="true" />
+      </include_pattern>
+      <include_pattern>
+        <option name="PATTERN" value="com.packt.masteringakka.bookstore.user.*" />
+        <option name="ENABLED" value="true" />
+        <option name="INCLUDE" value="true" />
+      </include_pattern>
+      <include_pattern>
+        <option name="PATTERN" value="com.packt.masteringakka.bookstore.credit.*" />
+        <option name="ENABLED" value="true" />
+        <option name="INCLUDE" value="true" />
+      </include_pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
