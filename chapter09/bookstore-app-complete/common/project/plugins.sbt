@@ -4,6 +4,8 @@ logLevel := Level.Warn
 libraryDependencies += "org.vafer" % "jdeb" % "1.7" artifacts (Artifact("jdeb", "jar", "jar"))
 classpathTypes += "maven-plugin"
 
+// disablePlugins(BundlePlugin)
+
 // The Typesafe repository
 //resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 
