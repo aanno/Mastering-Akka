@@ -4,7 +4,9 @@ logLevel := Level.Warn
 libraryDependencies += "org.vafer" % "jdeb" % "1.7" artifacts (Artifact("jdeb", "jar", "jar"))
 classpathTypes += "maven-plugin"
 
+// https://github.com/typesafehub/sbt-conductr/issues/279
 // disablePlugins(BundlePlugin)
+// disablePlugins(com.lightbend.conductr.sbt.BundlePlugin)
 
 // The Typesafe repository
 //resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
