@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="sbt: com.typesafe.akka:akka-persistence-cassandra_2.12:0.93:jar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-cassandra_2.12/0.93/akka-persistence-cassandra_2.12-0.93.jar!/" />
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-cassandra_2.12/0.93/akka-persistence-cassandra_2.12-0.93.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-cassandra_2.12/0.93/akka-persistence-cassandra_2.12-0.93-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-cassandra_2.12/0.93/akka-persistence-cassandra_2.12-0.93-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-cassandra_2.12/0.93/akka-persistence-cassandra_2.12-0.93-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-cassandra_2.12/0.93/akka-persistence-cassandra_2.12-0.93-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

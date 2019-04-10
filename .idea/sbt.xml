@@ -5,33 +5,6 @@
     <option name="customLauncherPath" value="$USER_HOME$/.sdkman/candidates/sbt/current/bin/sbt-launch.jar" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
-          </set>
-        </option>
-      </SbtProjectSettings>
-      <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter05/bookstore-app-complete" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/chapter05/bookstore-app-complete" />
-            <option value="$PROJECT_DIR$/chapter05/bookstore-app-complete/project" />
-          </set>
-        </option>
-      </SbtProjectSettings>
-      <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter05/bookstore-app-incomplete" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/chapter05/bookstore-app-incomplete" />
-            <option value="$PROJECT_DIR$/chapter05/bookstore-app-incomplete/project" />
-          </set>
-        </option>
-      </SbtProjectSettings>
-      <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter06/bookstore-app-complete" />
         <option name="modules">
           <set>
@@ -48,19 +21,102 @@
         <option name="sbtVersion" value="1.2.8" />
       </SbtProjectSettings>
       <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter07/bookstore-app-complete" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete" />
-            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/common" />
-            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/credit-processing" />
-            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/inventory-management" />
-            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/project" />
-            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/sales-order-processing" />
-            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/server" />
-            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/user-management" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete/common" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete/credit-processing" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete/inventory-management" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete/project" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete/sales-order-processing" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete/server" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete/user-management" />
           </set>
         </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/common" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/credit-processing" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/inventory-management" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/project" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/sales-order-processing" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/server" />
+            <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/user-management" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter07/samples" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter07/samples" />
+            <option value="$PROJECT_DIR$/chapter07/samples/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter08/bookstore-app-complete" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete/common" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete/credit-processing" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete/inventory-management" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete/project" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete/sales-order-processing" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete/server" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete/user-management" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/common" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/credit-processing" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/inventory-management" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/project" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/sales-order-processing" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/server" />
+            <option value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/user-management" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter08/samples" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter08/samples" />
+            <option value="$PROJECT_DIR$/chapter08/samples/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter09/sample" />
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter10/samples" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter10/samples" />
+            <option value="$PROJECT_DIR$/chapter10/samples/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
       </SbtProjectSettings>
     </option>
   </component>

@@ -29,10 +29,11 @@ class BookViewBuilder extends BookReadModel with ViewBuilder[BookViewBuilder.Boo
   import BookViewBuilder._
   import Book.Event._
   import context.dispatcher
+  import akka.persistence.query.Offset
 
   def projectionId = "book-view-builder"
   
-  def actionFor(bookId:String, offset:Long, event:Any) = event match {
+  def actionFor(bookId:String, offset:Offset, event:Any) = event match {
     case BookCreated(book) =>
       log.info("Saving a new book entity into the elasticsearch index: {}", book)
       val bookRM = BookRM(book.id, book.title, book.author, book.tags, book.cost, book.inventoryAmount,

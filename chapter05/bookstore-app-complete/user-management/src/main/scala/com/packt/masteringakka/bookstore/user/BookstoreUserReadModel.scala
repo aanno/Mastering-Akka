@@ -26,9 +26,10 @@ class BookstoreUserViewBuilder extends ViewBuilder[BookstoreUserViewBuilder.Book
   import BookstoreUser.Event._
   import ViewBuilder._
   import BookstoreUserViewBuilder._
+  import akka.persistence.query.Offset
   
   def projectionId = Name
-  def actionFor(id:String, offset:Long, event:Any) = event match {
+  def actionFor(id:String, offset:Offset, event:Any) = event match {
     case UserCreated(user) =>
       val rm = BookstoreUserRM(user.email, user.firstName, user.lastName, user.createTs, user.deleted)
       InsertAction(id, rm)

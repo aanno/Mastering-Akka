@@ -48,6 +48,7 @@ class InventoryClerk extends Aggregate[BookFO, Book]{
   import com.packt.masteringakka.bookstore.common.PersistentEntity._
   import context.dispatcher
   import Book.Command._
+  import akka.persistence.query.Sequence
   
   val projection = ResumableProjection("inventory-allocation", context.system)
   implicit val mater = ActorMaterializer()
@@ -55,7 +56,7 @@ class InventoryClerk extends Aggregate[BookFO, Book]{
     readJournalFor[CassandraReadJournal](CassandraReadJournal.Identifier)
   projection.fetchLatestOffset.foreach{ o =>
     journal.
-      eventsByTag("ordercreated", o.getOrElse(0L)).
+      eventsByTag("ordercreated", o.getOrElse(Sequence(0L))).
       runForeach(e => self ! e)
   }
   

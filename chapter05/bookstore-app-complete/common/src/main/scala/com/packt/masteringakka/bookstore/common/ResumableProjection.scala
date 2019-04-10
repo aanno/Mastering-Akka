@@ -4,6 +4,8 @@ import java.util.concurrent.atomic.AtomicBoolean
 
 import akka.actor._
 import akka.event.Logging
+import akka.persistence.query.Offset
+import akka.persistence.query.Sequence
 import com.datastax.driver.core._
 
 import scala.concurrent.Future
@@ -12,8 +14,8 @@ import scala.concurrent.Future
  * Interface into a projection's offset storage system so that it can be properly resumed
  */
 abstract class ResumableProjection(identifier:String) {
-  def storeLatestOffset(offset:Long):Future[Boolean]
-  def fetchLatestOffset:Future[Option[Long]]
+  def storeLatestOffset(offset:Offset):Future[Boolean]
+  def fetchLatestOffset:Future[Option[Offset]]
 }
 
 object ResumableProjection{
@@ -24,10 +26,15 @@ object ResumableProjection{
 class CassandraResumableProjection(identifier:String, system:ActorSystem) extends ResumableProjection(identifier){
   val projectionStorage = CassandraProjectionStorage(system)
   
-  def storeLatestOffset(offset:Long):Future[Boolean] = {
-    projectionStorage.updateOffset(identifier, offset + 1)
+  def storeLatestOffset(offset:Offset):Future[Boolean] = {
+    offset match {
+      case (Sequence(l)) =>
+        projectionStorage.updateOffset(identifier, l + 1)
+      case _ =>
+        projectionStorage.updateOffset(identifier, 0)
+    }
   }
-  def fetchLatestOffset:Future[Option[Long]] = {
+  def fetchLatestOffset:Future[Option[Offset]] = {
     projectionStorage.fetchLatestOffset(identifier)
   }
 }
@@ -62,12 +69,12 @@ class CassandraProjectionStorageExt(system:ActorSystem) extends Extension {
     _ <- session.executeAsync(s"update bookstore.projectionoffsets set offset = $offset where identifier = '$identifier'")
   } yield true) recover { case t => false }
 
-  def fetchLatestOffset(identifier:String): Future[Option[Long]] = for {
+  def fetchLatestOffset(identifier:String): Future[Option[Offset]] = for {
     session <- session.underlying()
     rs <- session.executeAsync(s"select offset from bookstore.projectionoffsets where identifier = '$identifier'")
   } yield {
     import collection.JavaConversions._
-    rs.all().headOption.map(_.getLong(0))
+    rs.all().headOption.map(_.getLong(0)).map(akka.persistence.query.Sequence)
   }
 }
 object CassandraProjectionStorage extends ExtensionId[CassandraProjectionStorageExt] with ExtensionIdProvider { 

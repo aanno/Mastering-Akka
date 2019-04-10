@@ -1,11 +1,11 @@
 package com.packt.masteringakka.bookstore.common
 
 import akka.actor.Stash
-import akka.persistence.query.PersistenceQuery
+import akka.persistence.query.{EventEnvelope, NoOffset, PersistenceQuery}
 import akka.persistence.cassandra.query.scaladsl.CassandraReadJournal
 import akka.stream.ActorMaterializer
-import akka.persistence.query.EventEnvelope
 import java.util.Date
+
 import scala.concurrent.Future
 
 trait ReadModelObject extends AnyRef{
@@ -24,7 +24,7 @@ object ViewBuilder{
   case class InsertAction(id:String, rm:ReadModelObject) extends IndexAction
   case class NoAction(id:String) extends IndexAction
   case object DeferredCreate extends IndexAction
-  case class LatestOffsetResult(offset:Option[Long])
+  case class LatestOffsetResult(offset:Option[akka.persistence.query.Offset])
 }
 
 trait ViewBuilder[RM <: ReadModelObject] extends BookstoreActor with Stash with ElasticsearchUpdateSupport{
@@ -32,6 +32,7 @@ trait ViewBuilder[RM <: ReadModelObject] extends BookstoreActor with Stash with 
   import ViewBuilder._
   import ElasticsearchApi._
   import akka.pattern.pipe
+  import akka.persistence.query.Sequence
   
   //Set up the persistence query to listen for events for the target entity type
   val journal = PersistenceQuery(context.system).
@@ -48,20 +49,23 @@ trait ViewBuilder[RM <: ReadModelObject] extends BookstoreActor with Stash with 
   
   def receive = handlingEvents
   
-  def actionFor(id:String, offset:Long, event:Any):IndexAction
+  def actionFor(id:String, offset:akka.persistence.query.Offset, event:Any):IndexAction
   
   def handlingEvents:Receive = {
     case LatestOffsetResult(o) =>
-      val offset = o.getOrElse(0L)
-      if (offset == 0){
-        clearIndex
+      val offset = o.getOrElse(Sequence(0L))
+      offset match {
+        case NoOffset =>
+          clearIndex
+        case Sequence(l) =>
+          if (l == 0) {
+            clearIndex
+          }
+          val offsetDate = new Date(l)
+          val eventsSource = journal.eventsByTag(entityType, offset)
+          eventsSource.runForeach(self ! _)
+          log.info("Starting up view builder for entity {} with offset time of {}", entityType, offsetDate)
       }
-      
-      val offsetDate = new Date(offset)
-      val eventsSource = journal.eventsByTag(entityType, offset)
-      eventsSource.runForeach(self ! _)      
-      log.info("Starting up view builder for entity {} with offset time of {}", entityType, offsetDate)
-            
     case env:EventEnvelope =>
       val updateProjection:PartialFunction[util.Try[IndexingResult], Unit] = {
         case tr =>
