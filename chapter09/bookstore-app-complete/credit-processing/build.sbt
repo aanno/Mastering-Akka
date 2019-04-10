@@ -8,6 +8,8 @@ version := "0.1.0"
 
 scalaVersion := "2.12.8"
 
+lazy val root = (project in file(".")).enablePlugins(JavaAppPackaging)
+
 libraryDependencies ++= {  
   Seq(
     "com.packt.masteringakka" %% "chapter9-bookstore-common" % "0.1.0-SNAPSHOT"
@@ -34,4 +36,4 @@ BundleKeys.endpoints := Map(
 
 BundleKeys.startCommand += "-main com.packt.masteringakka.bookstore.credit.Main"
 
-lazy val root = (project in file(".")).enablePlugins(JavaAppPackaging)
+// lazy val root = (project in file(".")).enablePlugins(JavaAppPackaging)

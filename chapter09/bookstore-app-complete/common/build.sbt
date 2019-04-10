@@ -6,10 +6,13 @@ version := "0.1.0-SNAPSHOT"
 
 scalaVersion := "2.12.8"
 
+lazy val root = (project in file(".")).enablePlugins(JavaAppPackaging)
+
 libraryDependencies ++= {
   val akkaVersion = "2.5.21"
   val akkaHttpVersion = "10.1.8"
   Seq(
+    // "org.vafer" % "jdep" % "1.7",
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
