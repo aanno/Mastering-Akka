@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mastering-Akka.iml" filepath="$PROJECT_DIR$/.idea/modules/Mastering-Akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183.iml" filepath="$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183-build.iml" filepath="$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples.iml" filepath="$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples-build.iml" filepath="$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-bookstore-app-complete.iml" filepath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-bookstore-app-complete.iml" />

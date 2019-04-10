@@ -105,6 +105,10 @@
         <option name="sbtVersion" value="1.2.8" />
       </SbtProjectSettings>
       <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter09/bookstore-app-complete" />
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter09/sample" />
         <option name="sbtVersion" value="1.2.8" />
       </SbtProjectSettings>
