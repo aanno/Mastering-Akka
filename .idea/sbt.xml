@@ -5,6 +5,17 @@
     <option name="customLauncherPath" value="C:\Users\tpasch\.sdkman\candidates\sbt\1.2.8\bin\sbt-launch.jar" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter02/bookstore-app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForImport" value="true" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter04/bookstore-app-complete" />
         <option name="modules">
           <set>
@@ -82,6 +93,12 @@
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter06/samples" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter06/samples" />
+            <option value="$PROJECT_DIR$/chapter06/samples/project" />
+          </set>
+        </option>
         <option name="sbtVersion" value="1.2.8" />
         <option name="useSbtShellForBuild" value="true" />
         <option name="useSbtShellForImport" value="true" />
