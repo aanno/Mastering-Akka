@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mastering-Akka.iml" filepath="$PROJECT_DIR$/.idea/modules/Mastering-Akka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/Mastering-Akka-build.iml" filepath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/Mastering-Akka-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183.iml" filepath="$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183-build.iml" filepath="$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples.iml" filepath="$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples.iml" />
@@ -51,6 +52,8 @@
       <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-user-management-incomplete.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-user-management-incomplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/common-chapter7-bookstore-common-complete.iml" filepath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/common-chapter7-bookstore-common-complete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/sales-order-processing-chapter7-sales-order-processing-complete.iml" filepath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/sales-order-processing-chapter7-sales-order-processing-complete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter06/samples/.idea/modules/samples_6089.iml" filepath="$PROJECT_DIR$/chapter06/samples/.idea/modules/samples_6089.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter06/samples/.idea/modules/samples_6089-build.iml" filepath="$PROJECT_DIR$/chapter06/samples/.idea/modules/samples_6089-build.iml" />
     </modules>
   </component>
 </project>
