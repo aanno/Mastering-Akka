@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="creditProcessing [file:/home/tpasch/scm/github/big-data/packt/Mastering-Akka/chapter07/bookstore-app-complete/]" external.linked.project.path="$MODULE_DIR$/../../credit-processing" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+<module external.linked.project.id="creditProcessing [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-complete/]" external.linked.project.path="$MODULE_DIR$/../../credit-processing" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output url="file://$MODULE_DIR$/../../credit-processing/target/scala-2.12/classes" />
     <output-test url="file://$MODULE_DIR$/../../credit-processing/target/scala-2.12/test-classes" />
     <exclude-output />
@@ -79,5 +79,6 @@
     <orderEntry type="library" name="sbt: com.datastax.cassandra:cassandra-driver-core:3.6.0:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
+    <orderEntry type="library" name="Bundled Protobuf Distribution" level="application" />
   </component>
 </module>

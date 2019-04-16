@@ -14,7 +14,7 @@ import io.netty.handler.codec.http.HttpResponse
 /**
  * Base trait for the endpoints in the bookstore app
  */
-trait BookstorePlan extends async.Plan with ServerErrorResponse{
+trait BookstorePlan extends async.Plan with ServerErrorResponse {
   import concurrent.duration._
   
   implicit val ec:ExecutionContext

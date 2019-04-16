@@ -43,16 +43,14 @@
       <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-inventory-management-incomplete.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-inventory-management-incomplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-sales-order-processing-complete.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-sales-order-processing-complete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-sales-order-processing-incomplete.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-sales-order-processing-incomplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter08/samples/.idea/modules/chapter8-samples.iml" filepath="$PROJECT_DIR$/chapter08/samples/.idea/modules/chapter8-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter08/samples/.idea/modules/chapter8-samples-build.iml" filepath="$PROJECT_DIR$/chapter08/samples/.idea/modules/chapter8-samples-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-server-complete.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-server-complete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-server-incomplete.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-server-incomplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-user-management-complete.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-user-management-complete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-user-management-incomplete.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-user-management-incomplete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/common-chapter7-bookstore-common-complete.iml" filepath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/common-chapter7-bookstore-common-complete.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/sales-order-processing-chapter7-sales-order-processing-complete.iml" filepath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/sales-order-processing-chapter7-sales-order-processing-complete.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter09/sample/.idea/modules/sample_3182.iml" filepath="$PROJECT_DIR$/chapter09/sample/.idea/modules/sample_3182.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter09/sample/.idea/modules/sample_3182-build.iml" filepath="$PROJECT_DIR$/chapter09/sample/.idea/modules/sample_3182-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter08/samples/.idea/modules/samples_4797.iml" filepath="$PROJECT_DIR$/chapter08/samples/.idea/modules/samples_4797.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter08/samples/.idea/modules/samples_4797-build.iml" filepath="$PROJECT_DIR$/chapter08/samples/.idea/modules/samples_4797-build.iml" />
     </modules>
   </component>
 </project>
