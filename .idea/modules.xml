@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_3582.iml" filepath="$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_3582.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_3582-build.iml" filepath="$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_3582-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/bookstore-app-incomplete_6139.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/bookstore-app-incomplete_6139.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/bookstore-app-incomplete_6139-build.iml" filepath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/bookstore-app-incomplete_6139-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples.iml" filepath="$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples-build.iml" filepath="$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter02/bookstore-app/.idea/modules/chapter2-book-services.iml" filepath="$PROJECT_DIR$/chapter02/bookstore-app/.idea/modules/chapter2-book-services.iml" />
