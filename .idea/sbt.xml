@@ -5,63 +5,49 @@
     <option name="customLauncherPath" value="C:\Users\tpasch\.sdkman\candidates\sbt\1.2.8\bin\sbt-launch.jar" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter01/initial-example-app" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter01/initial-example-app" />
+            <option value="$PROJECT_DIR$/chapter01/initial-example-app/book-services" />
+            <option value="$PROJECT_DIR$/chapter01/initial-example-app/common" />
+            <option value="$PROJECT_DIR$/chapter01/initial-example-app/credit-services" />
+            <option value="$PROJECT_DIR$/chapter01/initial-example-app/order-services" />
+            <option value="$PROJECT_DIR$/chapter01/initial-example-app/project" />
+            <option value="$PROJECT_DIR$/chapter01/initial-example-app/server" />
+            <option value="$PROJECT_DIR$/chapter01/initial-example-app/user-services" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter02/bookstore-app" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
-          </set>
-        </option>
-        <option name="sbtVersion" value="1.2.8" />
-        <option name="useSbtShellForImport" value="true" />
-      </SbtProjectSettings>
-      <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter04/bookstore-app-complete" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/chapter02/bookstore-app" />
+            <option value="$PROJECT_DIR$/chapter02/bookstore-app/book-services" />
+            <option value="$PROJECT_DIR$/chapter02/bookstore-app/common" />
+            <option value="$PROJECT_DIR$/chapter02/bookstore-app/credit-services" />
+            <option value="$PROJECT_DIR$/chapter02/bookstore-app/order-services" />
+            <option value="$PROJECT_DIR$/chapter02/bookstore-app/project" />
+            <option value="$PROJECT_DIR$/chapter02/bookstore-app/server" />
+            <option value="$PROJECT_DIR$/chapter02/bookstore-app/user-services" />
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
         <option name="useSbtShellForBuild" value="true" />
-        <option name="useSbtShellForImport" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter04/bookstore-app-incomplete" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter02/samples" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/chapter02/samples" />
+            <option value="$PROJECT_DIR$/chapter02/samples/project" />
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
         <option name="useSbtShellForBuild" value="true" />
-        <option name="useSbtShellForImport" value="true" />
-      </SbtProjectSettings>
-      <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter05/bookstore-app-complete" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
-          </set>
-        </option>
-        <option name="sbtVersion" value="1.2.8" />
-        <option name="useSbtShellForBuild" value="true" />
-        <option name="useSbtShellForImport" value="true" />
-      </SbtProjectSettings>
-      <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/chapter05/bookstore-app-incomplete" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
-          </set>
-        </option>
-        <option name="sbtVersion" value="1.2.8" />
-        <option name="useSbtShellForBuild" value="true" />
-        <option name="useSbtShellForImport" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter06/bookstore-app-complete" />
@@ -78,18 +64,24 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete" />
+            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/common" />
+            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/credit-processing" />
+            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/inventory-management" />
+            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/project" />
+            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/sales-order-processing" />
+            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/server" />
+            <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/user-management" />
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
         <option name="useSbtShellForBuild" value="true" />
-        <option name="useSbtShellForImport" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter06/samples" />
@@ -101,7 +93,6 @@
         </option>
         <option name="sbtVersion" value="1.2.8" />
         <option name="useSbtShellForBuild" value="true" />
-        <option name="useSbtShellForImport" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter07/bookstore-app-complete" />
@@ -118,6 +109,7 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete" />
@@ -134,6 +126,7 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter07/samples" />
@@ -144,6 +137,7 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter08/bookstore-app-complete" />
@@ -160,6 +154,7 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete" />
@@ -176,6 +171,7 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter08/samples" />
@@ -186,12 +182,23 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter09/bookstore-app-complete" />
+        <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter09/sample" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/chapter09/sample" />
+            <option value="$PROJECT_DIR$/chapter09/sample/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter10/samples" />
@@ -202,6 +209,7 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />
+        <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
     </option>
   </component>

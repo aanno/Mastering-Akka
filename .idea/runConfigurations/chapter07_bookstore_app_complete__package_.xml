@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="chapter07\bookstore-app-complete [package]" type="SbtRunConfiguration" factoryName="sbt Task">
+    <setting name="tasks" value="package" />
+    <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled -Dfile.encoding=utf-8" />
+    <setting name="workingDir" value="D:\scm\Mastering-Akka\chapter07\bookstore-app-complete" />
+    <setting name="useSbtShell" value="false" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

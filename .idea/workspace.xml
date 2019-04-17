@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e015bb1-b127-4a18-9ef4-6ffdfc98473a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_datastax_cassandra_cassandra_driver_core_3_6_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_datastax_cassandra_cassandra_driver_core_3_6_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jffi_1_2_17_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jffi_1_2_17_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jffi_1_2_17_native_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jffi_1_2_17_native_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_constants_0_9_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_constants_0_9_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_ffi_2_1_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_ffi_2_1_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_posix_3_0_45_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_posix_3_0_45_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_x86asm_1_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_jnr_jnr_x86asm_1_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_errorprone_error_prone_annotations_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_errorprone_error_prone_annotations_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_failureaccess_1_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_failureaccess_1_0_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_27_0_1_jre_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_27_0_1_jre_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_j2objc_j2objc_annotations_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_j2objc_j2objc_annotations_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_protobuf_protobuf_java_3_7_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_protobuf_protobuf_java_3_7_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_2_12_2_5_19_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_sharding_2_12_2_5_21_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_tools_2_12_2_5_19_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_tools_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_tools_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_distributed_data_2_12_2_5_21_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_testkit_2_12_10_1_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_cassandra_2_12_0_93_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_cassandra_2_12_0_93_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_query_2_12_2_5_19_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_query_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_query_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_12_2_5_19_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_19_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_21_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_netty_netty_reactive_streams_1_0_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_netty_netty_reactive_streams_1_0_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_2_12_3_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_2_12_3_3_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_hikaricp_2_12_3_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_slick_slick_hikaricp_2_12_3_3_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_zaxxer_HikariCP_3_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_zaxxer_HikariCP_3_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_aeron_aeron_client_1_12_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_aeron_aeron_client_1_15_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_aeron_aeron_client_1_15_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_aeron_aeron_driver_1_12_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_aeron_aeron_driver_1_15_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_aeron_aeron_driver_1_15_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_2_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_2_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_10_6_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_10_6_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_buffer_4_0_56_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_buffer_4_1_9_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_buffer_4_1_9_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_codec_4_0_56_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_codec_4_1_9_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_codec_4_1_9_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_codec_http_4_1_9_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_codec_http_4_1_9_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_common_4_0_56_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_common_4_1_9_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_common_4_1_9_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_handler_4_0_56_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_handler_4_1_9_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_handler_4_1_9_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_resolver_4_1_9_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_resolver_4_1_9_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_transport_4_0_56_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_transport_4_1_9_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_transport_4_1_9_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_10_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_10_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_databinder_dispatch_dispatch_core_2_12_0_13_4_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_databinder_dispatch_dispatch_core_2_12_0_13_4_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_agrona_agrona_0_9_27_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_agrona_agrona_0_9_31_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_agrona_agrona_0_9_31_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_async_http_client_2_0_39_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_async_http_client_2_0_39_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_async_http_client_netty_utils_2_0_39_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_async_http_client_netty_utils_2_0_39_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_netty_codec_dns_2_0_39_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_netty_codec_dns_2_0_39_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_netty_resolver_2_0_39_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_netty_resolver_2_0_39_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_netty_resolver_dns_2_0_39_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_asynchttpclient_netty_resolver_dns_2_0_39_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_checkerframework_checker_qual_2_5_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_checkerframework_checker_qual_2_5_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_mojo_animal_sniffer_annotations_1_17_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_codehaus_mojo_animal_sniffer_annotations_1_17_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ast_2_12_3_5_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ast_2_12_3_5_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ast_2_12_3_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_core_2_12_3_5_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_core_2_12_3_5_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_core_2_12_3_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ext_2_12_3_6_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ext_2_12_3_6_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_native_2_12_3_5_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_native_2_12_3_5_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_native_2_12_3_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_scalap_2_12_3_5_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_scalap_2_12_3_5_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_scalap_2_12_3_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_lmdbjava_lmdbjava_0_6_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mockito_mockito_all_1_10_19_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_mockito_mockito_all_1_10_19_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_5_0_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_5_0_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_analysis_5_0_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_analysis_5_0_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_commons_5_0_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_commons_5_0_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_tree_5_0_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_tree_5_0_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_util_5_0_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_ow2_asm_asm_util_5_0_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_postgresql_postgresql_42_2_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_postgresql_postgresql_42_2_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_2_12_0_9_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_2_12_0_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_filter_2_12_0_9_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_filter_2_12_0_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_filter_async_2_12_0_9_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_filter_async_2_12_0_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_json4s_2_12_0_9_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_json4s_2_12_0_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_netty_2_12_0_9_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_netty_2_12_0_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_netty_server_2_12_0_9_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_netty_server_2_12_0_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_util_2_12_0_9_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ws_unfiltered_unfiltered_util_2_12_0_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Mastering-Akka-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Mastering-Akka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/ch06_complete__package_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/ch09_bs_common__package_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-bookstore-app-complete-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-bookstore-app-complete-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-bookstore-app-complete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-bookstore-app-complete.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-bookstore-common-complete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-bookstore-common-complete.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-credit-processing-complete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-credit-processing-complete.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-inventory-management-complete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-inventory-management-complete.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-sales-order-processing-complete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-sales-order-processing-complete.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-server-complete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-server-complete.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-user-management-complete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/chapter6-user-management-complete.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/Mastering-Akka-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/chapter6-bookstore-app-incomplete-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/chapter6-bookstore-app-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/chapter6-bookstore-common-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/chapter6-credit-processing-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/chapter6-inventory-management-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/chapter6-sales-order-processing-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/chapter6-server-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/.idea/modules/chapter6-user-management-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/samples/.idea/modules/chapter6-samples-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/samples/.idea/modules/chapter6-samples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/samples/.idea/modules/samples_6089-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/samples/.idea/modules/samples_6089.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/bookstore-app-complete_3102-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/bookstore-app-complete_3102.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/chapter7-bookstore-app-complete-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/chapter7-bookstore-app-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/chapter7-bookstore-common-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/chapter7-credit-processing-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/chapter7-inventory-management-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/chapter7-sales-order-processing-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/chapter7-server-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-complete/.idea/modules/chapter7-user-management-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/bookstore-app-incomplete_4237-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/bookstore-app-incomplete_4237.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/chapter7-bookstore-app-incomplete-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/chapter7-bookstore-app-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/chapter7-credit-processing-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/chapter7-inventory-management-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/chapter7-server-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/chapter7-user-management-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/common-chapter7-bookstore-common-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/.idea/modules/sales-order-processing-chapter7-sales-order-processing-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/samples/.idea/modules/chapter7-samples-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter07/samples/.idea/modules/chapter7-samples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-bookstore-app-complete-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-bookstore-app-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-bookstore-common-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-credit-processing-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-inventory-management-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-sales-order-processing-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-server-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-complete/.idea/modules/chapter8-user-management-complete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-bookstore-app-incomplete-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-bookstore-app-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-bookstore-common-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-credit-processing-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-inventory-management-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-sales-order-processing-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-server-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/.idea/modules/chapter8-user-management-incomplete.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/samples/.idea/modules/chapter8-samples-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter08/samples/.idea/modules/chapter8-samples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter09/bookstore-app-complete/.idea/modules/bookstore-app-complete_6183.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/samples/.idea/modules/chapter10-samples.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/sales-order-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/credit-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/inventory-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/user-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter04/bookstore-app-complete/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/samples/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/samples/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/samples/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/samples/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/samples/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/samples/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/inventory-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/credit-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/user-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-complete/sales-order-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/sales-order-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/inventory-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/credit-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/user-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/credit-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/sales-order-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/inventory-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-complete/user-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/inventory-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/sales-order-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/user-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/credit-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/samples/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/samples/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter06/samples/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/user-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/inventory-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/sales-order-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-complete/credit-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/samples/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/samples/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/samples/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/credit-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/sales-order-processing/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/inventory-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/user-management/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/credit-services/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/order-services/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/user-services/target/" />
+    <ignored path="$PROJECT_DIR$/chapter01/initial-example-app/book-services/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/common/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/book-services/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/order-services/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/credit-services/target/" />
+    <ignored path="$PROJECT_DIR$/chapter02/bookstore-app/user-services/target/" />
+    <ignored path="$PROJECT_DIR$/chapter09/bookstore-app-complete/target/" />
+    <ignored path="$PROJECT_DIR$/chapter09/bookstore-app-complete/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter09/bookstore-app-complete/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter09/sample/target/" />
+    <ignored path="$PROJECT_DIR$/chapter09/sample/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter09/sample/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter10/samples/target/" />
+    <ignored path="$PROJECT_DIR$/chapter10/samples/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/chapter10/samples/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter01/initial-example-app">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter02/bookstore-app">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter02/samples">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter04/bookstore-app-complete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter06/bookstore-app-complete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter06/bookstore-app-incomplete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter06/samples">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter07/bookstore-app-complete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter07/bookstore-app-incomplete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter07/samples">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter08/bookstore-app-complete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter08/bookstore-app-incomplete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter08/samples">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter09/bookstore-app-complete">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter09/sample">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/chapter10/samples">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="chapter9-samples" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter07/samples/src/main/scala/code/LowLevelHttpServer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter07/samples/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter09/sample/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter09/sample/project/plugins.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/common/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/user-management/build.sbt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter07/bookstore-app-complete/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-483" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter07/bookstore-app-complete/common/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter07/bookstore-app-incomplete/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-483" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stream</find>
+      <find>jdep</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/chapter07/samples/src/main/scala/code/LowLevelHttpServer.scala" />
+        <option value="$PROJECT_DIR$/chapter07/samples/build.sbt" />
+        <option value="$PROJECT_DIR$/chapter09/sample/build.sbt" />
+        <option value="$PROJECT_DIR$/chapter09/sample/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/chapter09/bookstore-app-complete/common/build.sbt" />
+        <option value="$PROJECT_DIR$/chapter09/bookstore-app-complete/user-management/build.sbt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.sdkman/candidates/maven/3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+        <option value="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+        <option value="$PROJECT_DIR$/.idea/pegdown-doclet.xml" />
+        <option value="$PROJECT_DIR$/.idea/markdown-doclet.xml" />
+        <option value="$PROJECT_DIR$/chapter07/samples/.idea/modules/mastering-akka.iml" />
+        <option value="$PROJECT_DIR$/chapter07/samples/.idea/modules/mastering-akka-build.iml" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/bookstore-app-complete_6077.iml" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/.idea/modules/bookstore-app-complete_6077-build.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2851" />
+    <option name="height" value="1925" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="NBKnowledgePane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-app-complete" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-app-complete" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-app-complete" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-app-incomplete" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="initial-example-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore-app-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter10/samples" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/sales-order-processing" />
+        <option value="$PROJECT_DIR$/chapter10/samples/project" />
+        <option value="$PROJECT_DIR$/chapter06/samples" />
+        <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete" />
+        <option value="$PROJECT_DIR$/chapter06/samples/project" />
+        <option value="$PROJECT_DIR$/chapter08/bookstore-app-complete/project" />
+        <option value="$PROJECT_DIR$/chapter02/bookstore-app/project" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/project" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/server" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/credit-processing" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/inventory-management" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/user-management" />
+        <option value="$PROJECT_DIR$/chapter04/bookstore-app-complete" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete/common" />
+        <option value="$PROJECT_DIR$/chapter04/bookstore-app-complete/inventory-management" />
+        <option value="$PROJECT_DIR$/chapter04/bookstore-app-complete/server" />
+        <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/inventory-management" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/user-management" />
+        <option value="$PROJECT_DIR$/chapter04/bookstore-app-complete/credit-processing" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/server" />
+        <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/project" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/project" />
+        <option value="$PROJECT_DIR$/project" />
+        <option value="$PROJECT_DIR$/chapter04/bookstore-app-complete/sales-order-processing" />
+        <option value="$PROJECT_DIR$/chapter07/bookstore-app-complete/project" />
+        <option value="$PROJECT_DIR$/chapter07/samples/project" />
+        <option value="$PROJECT_DIR$/chapter04/bookstore-app-complete/user-management" />
+        <option value="$PROJECT_DIR$" />
+        <option value="$PROJECT_DIR$/chapter04/bookstore-app-complete/common" />
+        <option value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete" />
+        <option value="$PROJECT_DIR$/chapter04/bookstore-app-complete/project" />
+        <option value="$PROJECT_DIR$/chapter07/samples" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/sales-order-processing" />
+        <option value="$PROJECT_DIR$/chapter02/samples/project" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/common" />
+        <option value="$PROJECT_DIR$/chapter10/samples" />
+        <option value="$PROJECT_DIR$/chapter02/bookstore-app" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-complete" />
+        <option value="$PROJECT_DIR$/chapter02/samples" />
+        <option value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/credit-processing" />
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="sbt Task.chapter07\samples [package]">
+    <configuration name="chapter07\bookstore-app-incomplete [package] " type="SbtRunConfiguration" factoryName="sbt Task">
+      <setting name="tasks" value="package" />
+      <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled -Dfile.encoding=utf-8" />
+      <setting name="workingDir" value="D:\scm\Mastering-Akka\chapter07\bookstore-app-incomplete" />
+      <setting name="useSbtShell" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter07\samples [package]" type="SbtRunConfiguration" factoryName="sbt Task">
+      <setting name="tasks" value="package" />
+      <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled -Dfile.encoding=utf-8" />
+      <setting name="workingDir" value="D:\scm\Mastering-Akka\chapter07\samples" />
+      <setting name="useSbtShell" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="sbt Task.chapter07\bookstore-app-complete [package]" />
+      <item itemvalue="sbt Task.chapter07\bookstore-app-incomplete [package] " />
+      <item itemvalue="sbt Task.chapter07\samples [package]" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="bookstore-app-complete" />
+              <option name="path" value="$PROJECT_DIR$/chapter09/bookstore-app-complete" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="bookstore-app-complete_3582 [file:/D:/scm/Mastering-Akka/chapter09/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter09/bookstore-app-complete" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="bookstore-app-complete_3582-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter09/bookstore-app-complete/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter10-samples" />
+              <option name="path" value="$PROJECT_DIR$/chapter10/samples" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="samples [file:/D:/scm/Mastering-Akka/chapter10/samples/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter10/samples" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter10-samples-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter10/samples/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter2-bookstore-app2" />
+              <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="orderServices [file:/D:/scm/Mastering-Akka/chapter02/bookstore-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app/order-services" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="creditServices [file:/D:/scm/Mastering-Akka/chapter02/bookstore-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app/credit-services" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter02/bookstore-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server [file:/D:/scm/Mastering-Akka/chapter02/bookstore-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="userServices [file:/D:/scm/Mastering-Akka/chapter02/bookstore-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app/user-services" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="bookServices [file:/D:/scm/Mastering-Akka/chapter02/bookstore-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app/book-services" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/scm/Mastering-Akka/chapter02/bookstore-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter2-bookstore-app2-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/bookstore-app/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter2-samples" />
+              <option name="path" value="$PROJECT_DIR$/chapter02/samples" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter02/samples/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/samples" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter2-samples-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter02/samples/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter6-bookstore-app-complete" />
+              <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="server [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="userMgmt [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete/user-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="creditProcessing [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete/credit-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inventoryMgmt [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete/inventory-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="salesOrderProcessing [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete/sales-order-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter6-bookstore-app-complete-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-complete/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter6-bookstore-app-incomplete" />
+              <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="server [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="salesOrderProcessing [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/sales-order-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="userMgmt [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/user-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inventoryMgmt [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/inventory-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="creditProcessing [file:/D:/scm/Mastering-Akka/chapter06/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/credit-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter6-bookstore-app-incomplete-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter6-samples" />
+              <option name="path" value="$PROJECT_DIR$/chapter06/samples" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="samples [file:/D:/scm/Mastering-Akka/chapter06/samples/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/samples" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter6-samples-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter06/samples/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter7-bookstore-app-complete" />
+              <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="salesOrderProcessing [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete/sales-order-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="creditProcessing [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete/credit-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inventoryMgmt [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete/inventory-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="userMgmt [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete/user-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter7-bookstore-app-complete-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-complete/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter7-bookstore-app-incomplete" />
+              <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="salesOrderProcessing [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/sales-order-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="userMgmt [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/user-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="creditProcessing [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/credit-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inventoryMgmt [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/inventory-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter07/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter7-bookstore-app-incomplete-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter7-samples" />
+              <option name="path" value="$PROJECT_DIR$/chapter07/samples" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="samples [file:/D:/scm/Mastering-Akka/chapter07/samples/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/samples" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter7-samples-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter07/samples/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter8-bookstore-app-complete" />
+              <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="salesOrderProcessing [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete/sales-order-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="userMgmt [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete/user-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="creditProcessing [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete/credit-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="inventoryMgmt [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-complete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete/inventory-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter8-bookstore-app-complete-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-complete/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter8-bookstore-app-incomplete" />
+              <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="inventoryMgmt [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/inventory-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="userMgmt [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/user-management" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="creditProcessing [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/credit-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="salesOrderProcessing [file:/D:/scm/Mastering-Akka/chapter08/bookstore-app-incomplete/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/sales-order-processing" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter8-bookstore-app-incomplete-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter8-samples" />
+              <option name="path" value="$PROJECT_DIR$/chapter08/samples" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="samples [file:/D:/scm/Mastering-Akka/chapter08/samples/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/samples" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter8-samples-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter08/samples/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="chapter9-samples" />
+              <option name="path" value="$PROJECT_DIR$/chapter09/sample" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="sample [file:/D:/scm/Mastering-Akka/chapter09/sample/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter09/sample" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="chapter9-samples-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter09/sample/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="initial-example-app" />
+              <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/D:/scm/Mastering-Akka/chapter01/initial-example-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="common [file:/D:/scm/Mastering-Akka/chapter01/initial-example-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app/common" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="orderServices [file:/D:/scm/Mastering-Akka/chapter01/initial-example-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app/order-services" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="server [file:/D:/scm/Mastering-Akka/chapter01/initial-example-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="creditServices [file:/D:/scm/Mastering-Akka/chapter01/initial-example-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app/credit-services" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="bookServices [file:/D:/scm/Mastering-Akka/chapter01/initial-example-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app/book-services" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="userServices [file:/D:/scm/Mastering-Akka/chapter01/initial-example-app/]" />
+                <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app/user-services" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="initial-example-app-build" />
+                <option name="path" value="$PROJECT_DIR$/chapter01/initial-example-app/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/chapter01/initial-example-app" value="4663026239402" />
+        <entry key="$PROJECT_DIR$/chapter01/initial-example-app/build.sbt" value="48396620" />
+        <entry key="$PROJECT_DIR$/chapter01/initial-example-app/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter01/initial-example-app/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter02/bookstore-app" value="4663026239423" />
+        <entry key="$PROJECT_DIR$/chapter02/bookstore-app/build.sbt" value="3234522612" />
+        <entry key="$PROJECT_DIR$/chapter02/bookstore-app/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter02/bookstore-app/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter02/samples" value="4663026239437" />
+        <entry key="$PROJECT_DIR$/chapter02/samples/build.sbt" value="3794165526" />
+        <entry key="$PROJECT_DIR$/chapter02/samples/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter02/samples/project/plugins.sbt" value="3560453760" />
+        <entry key="$PROJECT_DIR$/chapter06/bookstore-app-complete" value="4664660454155" />
+        <entry key="$PROJECT_DIR$/chapter06/bookstore-app-complete/build.sbt" value="3552191471" />
+        <entry key="$PROJECT_DIR$/chapter06/bookstore-app-complete/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter06/bookstore-app-complete/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter06/bookstore-app-incomplete" value="4664660454290" />
+        <entry key="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/build.sbt" value="3187924978" />
+        <entry key="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter06/bookstore-app-incomplete/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter06/samples" value="4666294668908" />
+        <entry key="$PROJECT_DIR$/chapter06/samples/build.sbt" value="1761776010" />
+        <entry key="$PROJECT_DIR$/chapter06/samples/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter06/samples/project/plugins.sbt" value="2530939521" />
+        <entry key="$PROJECT_DIR$/chapter07/bookstore-app-complete" value="4666294668961" />
+        <entry key="$PROJECT_DIR$/chapter07/bookstore-app-complete/build.sbt" value="1526087827" />
+        <entry key="$PROJECT_DIR$/chapter07/bookstore-app-complete/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter07/bookstore-app-complete/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter07/bookstore-app-incomplete" value="4666294669027" />
+        <entry key="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/build.sbt" value="3912388774" />
+        <entry key="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter07/bookstore-app-incomplete/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter07/samples" value="4666384575868" />
+        <entry key="$PROJECT_DIR$/chapter07/samples/build.sbt" value="115061576" />
+        <entry key="$PROJECT_DIR$/chapter07/samples/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter07/samples/project/plugins.sbt" value="2530939521" />
+        <entry key="$PROJECT_DIR$/chapter08/bookstore-app-complete" value="4664660454620" />
+        <entry key="$PROJECT_DIR$/chapter08/bookstore-app-complete/build.sbt" value="1538424515" />
+        <entry key="$PROJECT_DIR$/chapter08/bookstore-app-complete/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter08/bookstore-app-complete/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter08/bookstore-app-incomplete" value="4664660454662" />
+        <entry key="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/build.sbt" value="1572087953" />
+        <entry key="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter08/bookstore-app-incomplete/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter08/samples" value="4666294669586" />
+        <entry key="$PROJECT_DIR$/chapter08/samples/build.sbt" value="3238555346" />
+        <entry key="$PROJECT_DIR$/chapter08/samples/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter08/samples/project/plugins.sbt" value="2530939521" />
+        <entry key="$PROJECT_DIR$/chapter09/bookstore-app-complete" value="4666294669648" />
+        <entry key="$PROJECT_DIR$/chapter09/bookstore-app-complete/build.sbt" value="109294426" />
+        <entry key="$PROJECT_DIR$/chapter09/bookstore-app-complete/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter09/bookstore-app-complete/project/plugins.sbt" value="1013978590" />
+        <entry key="$PROJECT_DIR$/chapter09/sample/build.sbt" value="1457970626" />
+        <entry key="$PROJECT_DIR$/chapter09/sample/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter09/sample/project/plugins.sbt" value="4116335314" />
+        <entry key="$PROJECT_DIR$/chapter10/samples" value="4666294669754" />
+        <entry key="$PROJECT_DIR$/chapter10/samples/build.sbt" value="4151455292" />
+        <entry key="$PROJECT_DIR$/chapter10/samples/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/chapter10/samples/project/plugins.sbt" value="2530939521" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/chapter09/bookstore-app-complete" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e015bb1-b127-4a18-9ef4-6ffdfc98473a" name="Default Changelist" comment="" />
+      <created>1555520331756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555520331756</updated>
+      <workItem from="1555520337937" duration="3607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3607000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="DB Browser" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="LDAP" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18241042" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" weight="0.29619312" />
+      <window_info anchor="bottom" id="GraphQL" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Graph Database Console" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Tool Output" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Tail" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.3286908" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="SBT Console" weight="0.32961932" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="ANTLR Preview" />
+      <window_info anchor="bottom" id="VersionChecker" />
+      <window_info anchor="bottom" id="Regex Tester" />
+      <window_info anchor="bottom" id="LuaCheck" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="IvyIDEA" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961932" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32961932" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Graph Database" />
+      <window_info anchor="right" id="Plugins" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Kevoree Base64 Translator" side_tool="true" />
+      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="Cargo" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="sbt" visible="true" weight="0.13634248" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter08/samples/build.sbt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/bookstore-app-complete/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter07/bookstore-app-incomplete/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter07/bookstore-app-complete/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter07/bookstore-app-complete/common/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter07/samples/src/main/scala/code/LowLevelHttpServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter07/samples/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/sample/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/sample/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/common/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter09/bookstore-app-complete/user-management/build.sbt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Bundled Protobuf Distribution</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11 (oracle 11.0.2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>chapter4-user-management-complete</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11 (oracle 11.0.2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

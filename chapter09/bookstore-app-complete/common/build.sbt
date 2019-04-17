@@ -12,7 +12,7 @@ libraryDependencies ++= {
   val akkaVersion = "2.5.21"
   val akkaHttpVersion = "10.1.8"
   Seq(
-    // "org.vafer" % "jdep" % "1.7",
+    "org.vafer" % "jdeb" % "1.7",
     "com.typesafe.akka" %% "akka-actor" % akkaVersion,
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
     "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,

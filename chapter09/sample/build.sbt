@@ -19,7 +19,7 @@ libraryDependencies ++= {
     // https://github.com/typesafehub/conductr-lib#typesafe-conductr-bundle-library
     "com.typesafe.conductr" %% "akka24-conductr-bundle-lib" % conductRLibVersion,
     "ch.qos.logback" % "logback-classic" % "1.2.3",
-    "org.vafer" % "jdep" % "1.7"
+    "org.vafer" % "jdeb" % "1.7"
     )
 }
 
