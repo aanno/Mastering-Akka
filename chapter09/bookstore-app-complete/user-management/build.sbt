@@ -17,7 +17,7 @@ libraryDependencies ++= {
 }
 
 normalizedName in Bundle := "user"
-d 
+
 BundleKeys.system := "UserSystem"
 
 javaOptions in Universal := Seq(
