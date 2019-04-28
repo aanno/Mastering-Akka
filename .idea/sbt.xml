@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ScalaSbtSettings">
     <option name="customLauncherEnabled" value="true" />
-    <option name="customLauncherPath" value="C:\Users\tpasch\.sdkman\candidates\sbt\1.2.8\bin\sbt-launch.jar" />
+    <option name="customLauncherPath" value="$USER_HOME$/.sdkman/candidates/sbt/current/bin/sbt-launch.jar" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/chapter01/initial-example-app" />
@@ -192,7 +192,6 @@
             <option value="$PROJECT_DIR$/chapter09/bookstore-app-complete/project" />
           </set>
         </option>
-        <option name="sbtVersion" value="1.2.8" />
         <option name="useSbtShellForBuild" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
